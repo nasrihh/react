@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ResultsPage from "./ResultsPage";
-import logo from "./assets/logo.jpg";
+import logo from "./assets/logo.png";
 import "./App.css";
 
 function App() {

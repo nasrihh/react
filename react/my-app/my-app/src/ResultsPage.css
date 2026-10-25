@@ -259,3 +259,22 @@
     border-top-color: #69d5a5;
   }
 }
+.result-card {
+  height: 230px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.result-card__header {
+  flex: 0 0 auto;
+}
+
+.result-card__content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overflow-wrap: anywhere;
+}
